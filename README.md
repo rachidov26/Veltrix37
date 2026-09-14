@@ -27,6 +27,14 @@ The project is currently in its **free launch phase**.
 RACHID-OX0VH-6BR5L-MZ7CU
 ```
 
+### 📧 Activation Email
+
+```text
+Veltrix37@rachidov26.com
+```
+
+> **Use this email together with the free license key above when activating Veltrix37 Pro.**
+
 **Duration:** 1 month  
 **Expires:** 2026-10-14 16:04 UTC  
 **Product:** Veltrix37 Pro
@@ -37,7 +45,7 @@ RACHID-OX0VH-6BR5L-MZ7CU
 2. Install and open Veltrix37.
 3. Open the Pro/Licensing section.
 4. Enter the license key above.
-5. **Enter your email address. An email address is required to complete activation.**
+5. **Enter the activation email: `Veltrix37@rachidov26.com`.**
 6. Complete activation.
 
 > Your email is required by the activation system to associate the activation with the license. License activation is validated server-side.
@@ -67,7 +75,7 @@ Always download the application from the official repository or an official Velt
 
 Veltrix37 Pro uses server-side license validation. The current public launch license is valid for **1 month** and expires on **2026-10-14 16:04 UTC**.
 
-**An email address is required during activation.** The email is used by the licensing system as part of the activation process.
+**Activation requires the email `Veltrix37@rachidov26.com`.** The email is used by the licensing system as part of the activation process.
 
 The license key is provided above for the current free launch. Do not post private tokens, passwords, PayPal credentials or other secrets in public issues.
 
