@@ -14,17 +14,18 @@
     section{padding:94px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 44px}.section-head h2{font-size:clamp(32px,4vw,50px);letter-spacing:-.04em;line-height:1.05;margin:0 0 14px}.section-head p{color:var(--muted);margin:0}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature{padding:25px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));min-height:190px}.icon{font-size:25px;margin-bottom:22px}.feature h3{margin:0 0 8px;font-size:17px}.feature p{margin:0;color:var(--muted);font-size:14px}
     .video-wrap{border:1px solid var(--line);border-radius:28px;overflow:hidden;background:#090b10;box-shadow:var(--shadow)}video{display:block;width:100%;max-height:650px;background:#050609}.video-note{text-align:center;color:var(--muted);font-size:13px;padding:15px}
     .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.shot{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#0c0f14;cursor:zoom-in}.shot img{width:100%;display:block;transition:transform .35s ease}.shot:hover img{transform:scale(1.025)}
+    .license{position:relative;overflow:hidden;padding:38px;border:1px solid rgba(37,208,255,.18);border-radius:30px;background:radial-gradient(circle at 90% 10%,rgba(37,208,255,.13),transparent 34%),radial-gradient(circle at 0% 100%,rgba(124,92,255,.12),transparent 38%),linear-gradient(135deg,rgba(255,255,255,.055),rgba(255,255,255,.02));box-shadow:var(--shadow)}.license:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(120deg,transparent 20%,rgba(255,255,255,.035) 50%,transparent 80%)}.license-head{position:relative;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:26px}.license h2{margin:0 0 7px;font-size:32px;letter-spacing:-.03em}.license p{margin:0;color:var(--muted)}.launch-badge{white-space:nowrap;padding:7px 11px;border-radius:999px;border:1px solid rgba(85,230,154,.22);background:rgba(85,230,154,.08);color:#8ff0ba;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.license-grid{position:relative;display:grid;grid-template-columns:1fr 1.15fr;gap:14px}.credential{min-width:0;padding:18px 18px 16px;border:1px solid var(--line);border-radius:18px;background:rgba(0,0,0,.18)}.credential-label{display:block;color:#8e97a9;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;margin-bottom:9px}.credential-row{display:flex;align-items:center;gap:12px}.credential-value{min-width:0;flex:1;color:#f7f8fc;font-weight:750;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.key-value{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.06em;font-size:15px}.copy-btn{flex:0 0 auto;border:1px solid var(--line);background:rgba(255,255,255,.055);color:#dfe4ef;border-radius:10px;padding:8px 11px;font-size:12px;font-weight:800;cursor:pointer;transition:.2s}.copy-btn:hover{background:rgba(255,255,255,.10);transform:translateY(-1px)}.copy-btn.copied{color:#8ff0ba;border-color:rgba(85,230,154,.3)}.license-note{position:relative;margin:16px 0 0;color:#7f899b;font-size:12px}.license-note strong{color:#aeb7c7}
     .download{padding:42px;border:1px solid rgba(124,92,255,.28);border-radius:30px;background:radial-gradient(circle at 85% 15%,rgba(37,208,255,.12),transparent 35%),linear-gradient(135deg,rgba(124,92,255,.13),rgba(255,255,255,.035));display:flex;align-items:center;justify-content:space-between;gap:30px}.download h2{margin:0 0 8px;font-size:32px}.download p{margin:0;color:var(--muted)}.version{display:inline-block;margin-top:13px;color:#d9dded;font-size:13px}
     footer{border-top:1px solid var(--line);padding:30px 0 40px;color:#737b8c;font-size:13px;display:flex;justify-content:space-between;gap:20px}.footer-brand{color:#dce1ed;font-weight:800}
     .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:30px;z-index:20}.lightbox.open{display:flex}.lightbox img{max-width:min(1200px,96vw);max-height:90vh;border-radius:18px;box-shadow:0 30px 100px #000}.close{position:fixed;top:22px;right:26px;border:0;background:rgba(255,255,255,.1);color:#fff;width:44px;height:44px;border-radius:50%;font-size:24px;cursor:pointer}
-    @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:55px}.screen{transform:none}.features{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.download{flex-direction:column;align-items:flex-start}.nav-links{display:none}}
-    @media(max-width:560px){.wrap{width:min(100% - 24px,1160px)}.hero h1{font-size:52px}.hero p{font-size:16px}.features,.gallery{grid-template-columns:1fr}.download{padding:28px}.btn{width:100%}.actions{width:100%}section{padding:70px 0}footer{flex-direction:column}}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:55px}.screen{transform:none}.features{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.license-grid{grid-template-columns:1fr}.download{flex-direction:column;align-items:flex-start}.nav-links{display:none}}
+    @media(max-width:560px){.wrap{width:min(100% - 24px,1160px)}.hero h1{font-size:52px}.hero p{font-size:16px}.features,.gallery{grid-template-columns:1fr}.license{padding:26px 20px}.license-head{flex-direction:column}.credential-row{gap:8px}.credential-value{font-size:14px}.key-value{font-size:12px}.download{padding:28px}.btn{width:100%}.actions{width:100%}section{padding:70px 0}footer{flex-direction:column}}
   </style>
 </head>
 <body>
   <header class="wrap nav">
     <a class="brand" href="#top" aria-label="Veltrix37 Pro home"><span class="brand-mark">V37</span><span>VELTRIX37 PRO</span></a>
-    <nav class="nav-links"><a href="#features">Features</a><a href="#demo">Demo</a><a href="#gallery">Gallery</a><a href="#download">Download</a></nav>
+    <nav class="nav-links"><a href="#features">Features</a><a href="#demo">Demo</a><a href="#license">Free Key</a><a href="#gallery">Gallery</a><a href="#download">Download</a></nav>
   </header>
 
   <main id="top">
@@ -67,6 +68,20 @@
       </div>
     </section>
 
+    <section id="license" class="wrap">
+      <div class="license">
+        <div class="license-head">
+          <div><h2>Free Launch Access</h2><p>Use these details to activate Veltrix37 Pro during the launch phase.</p></div>
+          <span class="launch-badge">1 Month Free</span>
+        </div>
+        <div class="license-grid">
+          <div class="credential"><span class="credential-label">License Email</span><div class="credential-row"><span class="credential-value" id="licenseEmail">Veltrix37@rachidov26.com</span><button class="copy-btn" type="button" data-copy="licenseEmail">Copy</button></div></div>
+          <div class="credential"><span class="credential-label">License Key</span><div class="credential-row"><span class="credential-value key-value" id="licenseKey">RACHID-OX0VH-6BR5L-MZ7CU</span><button class="copy-btn" type="button" data-copy="licenseKey">Copy</button></div></div>
+        </div>
+        <div class="license-note"><strong>Launch license:</strong> valid for 1 month · Free launch access · Copy the email and key directly into the app activation screen.</div>
+      </div>
+    </section>
+
     <section id="gallery" class="wrap">
       <div class="section-head"><h2>Explore the interface.</h2><p>Real Veltrix37 Pro screenshots — click any image to view it larger.</p></div>
       <div class="gallery">
@@ -102,6 +117,7 @@
     document.querySelectorAll('.shot img').forEach(i=>i.addEventListener('click',()=>{img.src=i.src;img.alt=i.alt;box.classList.add('open');box.setAttribute('aria-hidden','false')}));
     box.addEventListener('click',e=>{if(e.target===box||e.target.classList.contains('close')){box.classList.remove('open');box.setAttribute('aria-hidden','true')}});
     document.addEventListener('keydown',e=>{if(e.key==='Escape')box.classList.remove('open')});
+    document.querySelectorAll('.copy-btn').forEach(btn=>btn.addEventListener('click',async()=>{const value=document.getElementById(btn.dataset.copy).textContent.trim();try{await navigator.clipboard.writeText(value);const old=btn.textContent;btn.textContent='Copied ✓';btn.classList.add('copied');setTimeout(()=>{btn.textContent=old;btn.classList.remove('copied')},1400)}catch{btn.textContent='Select & copy';setTimeout(()=>btn.textContent='Copy',1400)}}));
   </script>
 </body>
 </html>
