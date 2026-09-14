@@ -37,9 +37,10 @@ RACHID-OX0VH-6BR5L-MZ7CU
 2. Install and open Veltrix37.
 3. Open the Pro/Licensing section.
 4. Enter the license key above.
-5. Complete activation.
+5. **Enter your email address. An email address is required to complete activation.**
+6. Complete activation.
 
-> License activation is validated server-side. The free launch license is subject to the campaign's activation limits.
+> Your email is required by the activation system to associate the activation with the license. License activation is validated server-side.
 
 For the complete license information, see [`FREE-LICENSE.md`](FREE-LICENSE.md).
 
@@ -50,6 +51,7 @@ For the complete license information, see [`FREE-LICENSE.md`](FREE-LICENSE.md).
 - 🖥️ Designed for Windows desktop use
 - 🔐 Server-side license validation
 - 🔄 Controlled license activation
+- 📧 Email required for license activation
 - 📦 Official releases published through GitHub
 - 🛠️ Continuous improvements during the launch phase
 
@@ -64,6 +66,8 @@ Always download the application from the official repository or an official Velt
 ## 🔐 License
 
 Veltrix37 Pro uses server-side license validation. The current public launch license is valid for **1 month** and expires on **2026-10-14 16:04 UTC**.
+
+**An email address is required during activation.** The email is used by the licensing system as part of the activation process.
 
 The license key is provided above for the current free launch. Do not post private tokens, passwords, PayPal credentials or other secrets in public issues.
 
