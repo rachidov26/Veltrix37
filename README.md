@@ -19,6 +19,44 @@ Veltrix37 is a Windows launcher designed to provide a clean, responsive and prac
 
 The project is currently in its **free launch phase**.
 
+## 🎥 How to Activate Veltrix37 Pro
+
+A short **30-second activation video** will be placed here above the product gallery.
+
+> The screenshot gallery is ready below. The video file itself is not yet stored in the repository.
+
+## 🖼️ Product Gallery
+
+All 13 product screenshots are presented together as one gallery.
+
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/01.png" alt="Veltrix37 screenshot 01" width="280"></td>
+    <td><img src="./assets/screenshots/02.png" alt="Veltrix37 screenshot 02" width="280"></td>
+    <td><img src="./assets/screenshots/03.png" alt="Veltrix37 screenshot 03" width="280"></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/screenshots/04.png" alt="Veltrix37 screenshot 04" width="280"></td>
+    <td><img src="./assets/screenshots/05.png" alt="Veltrix37 screenshot 05" width="280"></td>
+    <td><img src="./assets/screenshots/06.png" alt="Veltrix37 screenshot 06" width="280"></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/screenshots/07.png" alt="Veltrix37 screenshot 07" width="280"></td>
+    <td><img src="./assets/screenshots/08.png" alt="Veltrix37 screenshot 08" width="280"></td>
+    <td><img src="./assets/screenshots/09.png" alt="Veltrix37 screenshot 09" width="280"></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/screenshots/10.png" alt="Veltrix37 screenshot 10" width="280"></td>
+    <td><img src="./assets/screenshots/11.png" alt="Veltrix37 screenshot 11" width="280"></td>
+    <td><img src="./assets/screenshots/12.png" alt="Veltrix37 screenshot 12" width="280"></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/screenshots/13.png" alt="Veltrix37 screenshot 13" width="280"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 ## 🎁 Free Launch License
 
 ### 🔑 Your Free License Key
