@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="[https://github.com/rachidov26/Veltrix37/releases](https://github.com/rachidov26/Veltrix37/releases/download/26.9.14/VELTRIX32-PRO-26.9.14-setup.exe)">Download</a> ·
+  <a href="https://github.com/rachidov26/Veltrix37/releases">Download</a> ·
   <a href="https://github.com/rachidov26/Veltrix37/releases">Releases</a> ·
   <a href="https://github.com/rachidov26/Veltrix37/issues">Support</a>
 </p>
@@ -17,15 +17,31 @@
 
 Veltrix37 is a Windows launcher designed to provide a clean, responsive and practical way to access your applications and tools.
 
-The project is currently entering its **free launch phase**. Our goal is to make the first public release available to up to **7,000 activations** with a **3-month license**.
+The project is currently in its **free launch phase**.
 
-## 🎁 Free Launch
+## 🎁 Free Launch License
 
-**One campaign key · 3 months · up to 7,000 activations**
+### 🔑 Your Free License Key
 
-During the initial launch, eligible users can activate Veltrix37 Pro with the campaign license provided by the project.
+```text
+RACHID-OX0VH-6BR5L-MZ7CU
+```
 
-> The free campaign is limited. Once the activation capacity is reached, new activations under the campaign key will no longer be accepted.
+**Duration:** 1 month  
+**Expires:** 2026-10-14 16:04 UTC  
+**Product:** Veltrix37 Pro
+
+### How to activate
+
+1. Download Veltrix37 from the official GitHub Releases page.
+2. Install and open Veltrix37.
+3. Open the Pro/Licensing section.
+4. Enter the license key above.
+5. Complete activation.
+
+> License activation is validated server-side. The free launch license is subject to the campaign's activation limits.
+
+For the complete license information, see [`FREE-LICENSE.md`](FREE-LICENSE.md).
 
 ## ✨ Highlights
 
@@ -45,18 +61,18 @@ Official builds are published through **GitHub Releases**:
 
 Always download the application from the official repository or an official Veltrix37 distribution link.
 
-## 🔑 License
+## 🔐 License
 
-The initial public campaign uses a **3-month license** with a maximum campaign capacity of **7,000 activations**.
+Veltrix37 Pro uses server-side license validation. The current public launch license is valid for **1 month** and expires on **2026-10-14 16:04 UTC**.
 
-License activation is validated by the Veltrix37 service. Do not publish or share private activation credentials publicly.
+The license key is provided above for the current free launch. Do not post private tokens, passwords, PayPal credentials or other secrets in public issues.
 
 ## 🧭 Launch Roadmap
 
 - [x] Public GitHub repository
 - [ ] First public Windows release
-- [ ] 3-month free campaign
-- [ ] Reach 7,000 campaign activations
+- [x] Free launch license
+- [ ] Expand the public activation campaign
 - [ ] Collect user feedback and improve the product
 - [ ] Launch paid Veltrix37 Pro plans
 
@@ -66,7 +82,7 @@ For bugs, questions or feature requests, open an issue in the repository:
 
 **[Open a support issue](https://github.com/rachidov26/Veltrix37/issues/new)**
 
-Please do not post license keys, tokens, passwords, PayPal credentials or other private information in public issues.
+Please do not post private tokens, passwords, PayPal credentials or other sensitive information in public issues.
 
 ## 🔒 Security
 
