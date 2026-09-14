@@ -21,9 +21,21 @@ The project is currently in its **free launch phase**.
 
 ## 🎥 How to Activate Veltrix37 Pro
 
-Watch the short **30-second activation video** below:
+### ▶️ Watch the 30-second activation demo
 
-[▶️ Watch the Veltrix37 Pro Activation Video](./assets/activation-demo/activation.mp4)
+> **Click the large preview below to open and play the full video.**
+
+<p align="center">
+  <a href="./assets/activation-demo/activation.mp4">
+    <img src="./assets/screenshots/01.png" alt="Veltrix37 Pro activation video — click to watch" width="900">
+  </a>
+</p>
+
+<p align="center">
+  <strong>▶ Click the preview to watch the activation video</strong>
+</p>
+
+The video is stored in the repository at [`assets/activation-demo/activation.mp4`](./assets/activation-demo/activation.mp4).
 
 ## 🖼️ Product Gallery
 
