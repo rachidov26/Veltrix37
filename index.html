@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07080c">
+  <meta name="description" content="Veltrix37 Pro — a fast, modern Windows launcher built for a clean and focused desktop experience.">
+  <title>Veltrix37 Pro — Fast. Clean. Focused.</title>
+  <style>
+    :root{--bg:#07080c;--panel:#10131a;--panel2:#151923;--text:#f5f7fb;--muted:#a8afbf;--line:rgba(255,255,255,.09);--accent:#7c5cff;--accent2:#25d0ff;--shadow:0 30px 90px rgba(0,0,0,.45);--radius:24px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% -10%,rgba(124,92,255,.20),transparent 32%),radial-gradient(circle at 10% 15%,rgba(37,208,255,.10),transparent 28%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:5}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.06em}.brand-mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 10px 30px rgba(124,92,255,.3);display:grid;place-items:center;font-size:15px}.nav-links{display:flex;gap:26px;color:var(--muted);font-size:14px}.nav-links a:hover{color:#fff}
+    .hero{padding:86px 0 105px;display:grid;grid-template-columns:1.02fr .98fr;gap:54px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.035);color:#cfd5e2;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.13em}.dot{width:7px;height:7px;border-radius:50%;background:#55e69a;box-shadow:0 0 14px #55e69a}.hero h1{font-size:clamp(48px,7vw,86px);line-height:.98;letter-spacing:-.055em;margin:22px 0 24px}.gradient{background:linear-gradient(100deg,#fff 10%,#b8b0ff 52%,#5fe1ff 95%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{max-width:620px;color:var(--muted);font-size:18px;margin:0 0 34px}.actions{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border-radius:15px;font-weight:800;font-size:15px;border:1px solid var(--line);transition:.2s ease;cursor:pointer}.btn:hover{transform:translateY(-2px)}.btn-primary{background:linear-gradient(135deg,var(--accent),#5b7cff);box-shadow:0 14px 34px rgba(92,92,255,.28)}.btn-secondary{background:rgba(255,255,255,.045)}.hero-card{position:relative}.hero-card:before{content:"";position:absolute;inset:-24px;background:linear-gradient(135deg,rgba(124,92,255,.22),rgba(37,208,255,.12));filter:blur(45px);z-index:-1}.screen{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#0b0d12;box-shadow:var(--shadow);transform:perspective(1200px) rotateY(-4deg) rotateX(2deg)}.screen img{display:block;width:100%;height:auto}.screen-bar{height:38px;background:#11141b;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 14px;gap:7px}.screen-bar i{width:9px;height:9px;border-radius:50%;background:#444b5b}.screen-label{margin-left:auto;color:#6f7788;font-size:11px}
+    section{padding:94px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 44px}.section-head h2{font-size:clamp(32px,4vw,50px);letter-spacing:-.04em;line-height:1.05;margin:0 0 14px}.section-head p{color:var(--muted);margin:0}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature{padding:25px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));min-height:190px}.icon{font-size:25px;margin-bottom:22px}.feature h3{margin:0 0 8px;font-size:17px}.feature p{margin:0;color:var(--muted);font-size:14px}
+    .video-wrap{border:1px solid var(--line);border-radius:28px;overflow:hidden;background:#090b10;box-shadow:var(--shadow)}video{display:block;width:100%;max-height:650px;background:#050609}.video-note{text-align:center;color:var(--muted);font-size:13px;padding:15px}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.shot{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#0c0f14;cursor:zoom-in}.shot img{width:100%;display:block;transition:transform .35s ease}.shot:hover img{transform:scale(1.025)}
+    .download{padding:42px;border:1px solid rgba(124,92,255,.28);border-radius:30px;background:radial-gradient(circle at 85% 15%,rgba(37,208,255,.12),transparent 35%),linear-gradient(135deg,rgba(124,92,255,.13),rgba(255,255,255,.035));display:flex;align-items:center;justify-content:space-between;gap:30px}.download h2{margin:0 0 8px;font-size:32px}.download p{margin:0;color:var(--muted)}.version{display:inline-block;margin-top:13px;color:#d9dded;font-size:13px}
+    footer{border-top:1px solid var(--line);padding:30px 0 40px;color:#737b8c;font-size:13px;display:flex;justify-content:space-between;gap:20px}.footer-brand{color:#dce1ed;font-weight:800}
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:30px;z-index:20}.lightbox.open{display:flex}.lightbox img{max-width:min(1200px,96vw);max-height:90vh;border-radius:18px;box-shadow:0 30px 100px #000}.close{position:fixed;top:22px;right:26px;border:0;background:rgba(255,255,255,.1);color:#fff;width:44px;height:44px;border-radius:50%;font-size:24px;cursor:pointer}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:55px}.screen{transform:none}.features{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.download{flex-direction:column;align-items:flex-start}.nav-links{display:none}}
+    @media(max-width:560px){.wrap{width:min(100% - 24px,1160px)}.hero h1{font-size:52px}.hero p{font-size:16px}.features,.gallery{grid-template-columns:1fr}.download{padding:28px}.btn{width:100%}.actions{width:100%}section{padding:70px 0}footer{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#top" aria-label="Veltrix37 Pro home"><span class="brand-mark">V37</span><span>VELTRIX37 PRO</span></a>
+    <nav class="nav-links"><a href="#features">Features</a><a href="#demo">Demo</a><a href="#gallery">Gallery</a><a href="#download">Download</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="wrap hero">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> Free launch phase</span>
+        <h1>Fast.<br><span class="gradient">Clean. Focused.</span></h1>
+        <p>Veltrix37 Pro is a modern Windows launcher designed to keep your desktop experience fast, focused and beautifully organized.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://github.com/rachidov26/Veltrix37/releases" target="_blank" rel="noopener">↓ &nbsp; Download for Windows</a>
+          <a class="btn btn-secondary" href="#demo">▶ &nbsp; Watch Demo</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="screen">
+          <div class="screen-bar"><i></i><i></i><i></i><span class="screen-label">VELTRIX37 PRO</span></div>
+          <img src="assets/screenshots/01.png" alt="Veltrix37 Pro interface preview" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="wrap">
+      <div class="section-head"><h2>Built for a better desktop.</h2><p>A focused interface with the essentials where you need them.</p></div>
+      <div class="features">
+        <article class="feature"><div class="icon">⚡</div><h3>Fast & Responsive</h3><p>Quick access with a clean, responsive Windows experience.</p></article>
+        <article class="feature"><div class="icon">🎯</div><h3>Focused UI</h3><p>A practical interface designed to reduce clutter and distractions.</p></article>
+        <article class="feature"><div class="icon">🔐</div><h3>Pro Licensing</h3><p>Server-side validation and controlled activation for Pro access.</p></article>
+        <article class="feature"><div class="icon">🖥️</div><h3>Windows Ready</h3><p>Built specifically for a smooth desktop workflow on Windows.</p></article>
+      </div>
+    </section>
+
+    <section id="demo" class="wrap">
+      <div class="section-head"><h2>See Veltrix37 Pro in action.</h2><p>Watch the activation demo and explore the experience before installing.</p></div>
+      <div class="video-wrap">
+        <video controls preload="metadata" poster="assets/screenshots/01.png">
+          <source src="assets/activation-demo/activation.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="video-note">30-second activation demo · Click play to watch</div>
+      </div>
+    </section>
+
+    <section id="gallery" class="wrap">
+      <div class="section-head"><h2>Explore the interface.</h2><p>Real Veltrix37 Pro screenshots — click any image to view it larger.</p></div>
+      <div class="gallery">
+        <div class="shot"><img src="assets/screenshots/01.png" alt="Veltrix37 screenshot 01" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/02.png" alt="Veltrix37 screenshot 02" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/03.png" alt="Veltrix37 screenshot 03" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/04.png" alt="Veltrix37 screenshot 04" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/05.png" alt="Veltrix37 screenshot 05" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/06.png" alt="Veltrix37 screenshot 06" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/07.png" alt="Veltrix37 screenshot 07" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/08.png" alt="Veltrix37 screenshot 08" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/09.png" alt="Veltrix37 screenshot 09" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/10.png" alt="Veltrix37 screenshot 10" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/11.png" alt="Veltrix37 screenshot 11" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/12.png" alt="Veltrix37 screenshot 12" loading="lazy"></div>
+        <div class="shot"><img src="assets/screenshots/13.png" alt="Veltrix37 screenshot 13" loading="lazy"></div>
+      </div>
+    </section>
+
+    <section id="download" class="wrap">
+      <div class="download">
+        <div><h2>Ready to try Veltrix37 Pro?</h2><p>Download the official Windows build from GitHub Releases.</p><span class="version">Official distribution · Windows</span></div>
+        <a class="btn btn-primary" href="https://github.com/rachidov26/Veltrix37/releases" target="_blank" rel="noopener">↓ &nbsp; Download Veltrix37</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap"><span class="footer-brand">VELTRIX37 PRO</span><span>Fast. Clean. Focused. · © 2026</span></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="close" aria-label="Close image">×</button><img id="lightboxImg" alt="Expanded Veltrix37 screenshot"></div>
+  <script>
+    const box=document.getElementById('lightbox'), img=document.getElementById('lightboxImg');
+    document.querySelectorAll('.shot img').forEach(i=>i.addEventListener('click',()=>{img.src=i.src;img.alt=i.alt;box.classList.add('open');box.setAttribute('aria-hidden','false')}));
+    box.addEventListener('click',e=>{if(e.target===box||e.target.classList.contains('close')){box.classList.remove('open');box.setAttribute('aria-hidden','true')}});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')box.classList.remove('open')});
+  </script>
+</body>
+</html>
